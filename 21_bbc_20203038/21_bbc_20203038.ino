@@ -11,9 +11,9 @@ int a, b; // unit: mm
 #define _DIST_MAX 300 
 
 // Servo range 
-#define _DUTY_MIN 1100 // servo full clockwise position (0 degree)
+#define _DUTY_MIN 1000 // servo full clockwise position (0 degree)
 #define _DUTY_NEU 1200 // servo neutral position (90 degree)
-#define _DUTY_MAX 1300 // servo full counterclockwise position (180 degree)
+#define _DUTY_MAX 1400 // servo full counterclockwise position (180 degree)
 
 Servo myservo;
 
