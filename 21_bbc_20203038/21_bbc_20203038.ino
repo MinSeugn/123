@@ -4,13 +4,11 @@
 #define PIN_SERVO 10
 #define PIN_IR A0
 int a, b; // unit: mm
-// configurable parameters
-// Framework setting
+
 #define _DIST_TARGET 327   // (unit: mm)
 #define _DIST_MIN 100 
 #define _DIST_MAX 300 
 
-// Servo range 
 #define _DUTY_MIN 1000 // servo full clockwise position (0 degree)
 #define _DUTY_NEU 1200 // servo neutral position (90 degree)
 #define _DUTY_MAX 1400 // servo full counterclockwise position (180 degree)
